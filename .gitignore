@@ -134,3 +134,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+google-cloud-sdk/platform/bundledpythonunix/share/terminfo/E/Eterm
