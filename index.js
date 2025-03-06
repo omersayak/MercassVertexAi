@@ -152,7 +152,7 @@ async function analyzeImage(gcsUri) {
       console.log('Akış Parçası: ', JSON.stringify(item));
     }
     const aggregatedResponse = await streamingResult.response;
-    console.log('Sonuç: ', aggregatedResponse.candidates[0].content.parts[0].text);
+    console.log('________Sonuç: ', aggregatedResponse.candidates[0].content.parts[0].text);
     return aggregatedResponse;
   } catch (error) {
     console.error('Görsel analizi yapılırken hata oluştu:', error.message);
